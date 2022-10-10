@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  border: 2px solid red;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  letter-spacing: 10px;
+}
+
+.links {
+  color: #007bff;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
