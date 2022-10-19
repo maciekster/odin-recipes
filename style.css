@@ -15,23 +15,13 @@ h1 {
   justify-content: center;
 }
 
-.links {
-  color: #007bff;
-  text-decoration: none;
-  text-transform: uppercase;
+.nav-list {
   display: flex;
-  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.button {
-  text-align: center;
-  width: 300px;
-  /** inline-size: 300px; **/
-  height: 25px;
-  /** block-size: 25px; **/
-  padding: 5px;
-  margin: 20px;
-  background-color: #007bff;
-  border-radius: 20px;
-  flex: 0 1 auto;
+.nav-list li {
+  width: max-content;
 }
