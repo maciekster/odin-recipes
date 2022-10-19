@@ -25,12 +25,13 @@ h1 {
 
 .button {
   text-align: center;
-  width: 300px;
-  inline-size: 300px;
+  /** width: 300px; **/
+  /** inline-size: 300px; **/
   height: 25px;
-  block-size: 25px;
+  /** block-size: 25px; **/
   padding: 5px;
   margin: 10px;
   background-color: #007bff;
-  border-radius: 25px;
+  border-radius: 20px;
+  flex: 1;
 }
